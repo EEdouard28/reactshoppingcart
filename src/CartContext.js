@@ -1,7 +1,7 @@
 import { createContext, useState } from 'react';
 import { productsArra, getProductData } from './productsStore';
 
-const CartContext = createContext({
+export const CartContext = createContext({
   items: [],
   getProductQuantity: () => {},
   addOneToCart: () => {},
@@ -10,7 +10,7 @@ const CartContext = createContext({
   getTotalCost: () => {},
 });
 
-function CartProvider({ childrens }) {
+export function CartProvider({ children }) {
   const [cartProducts, setCartProducts] = useState([]);
 
   //   cart stores {id: 1, quantity: 2}

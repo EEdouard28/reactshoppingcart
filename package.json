@@ -1,11 +1,14 @@
 {
+  "homepage": "http://eedouard28.github.io/reactshoppingcart",
   "name": "reactshoppingcart",
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,10 +20,13 @@
   "bugs": {
     "url": "https://github.com/EEdouard28/reactshoppingcart/issues"
   },
-  "homepage": "https://github.com/EEdouard28/reactshoppingcart#readme",
+ 
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "stripe": "^11.5.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

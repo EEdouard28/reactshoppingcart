@@ -1,16 +1,20 @@
+// Coffee: price_1MKSGeCzfp9YZaTYzvj3y2M4
+// Creamer: price_1MKSHECzfp9YZaTYuMuBcLgz
+// Sugar: price_1MKSHdCzfp9YZaTYahgo2E6z
+
 const productsArray = [
   {
-    id: '1',
+    id: 'price_1MKSGeCzfp9YZaTYzvj3y2M4',
     title: 'Coffee',
     price: 4.99,
   },
   {
-    id: '2',
+    id: 'price_1MKSHECzfp9YZaTYuMuBcLgz',
     title: 'Sugar',
     price: 1.99,
   },
   {
-    id: '3',
+    id: 'price_1MKSHdCzfp9YZaTYahgo2E6z',
     title: 'Creamer',
     price: 3.99,
   },

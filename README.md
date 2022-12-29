@@ -25,7 +25,7 @@ This is a Ecommerce Store application built with React components/pages and Boot
 
 
 ## Screenshots
-
+<img width="393" alt="Screen Shot 2022-12-29 at 3 41 39 PM" src="https://user-images.githubusercontent.com/111817163/210009333-0956a8c5-da63-4ff4-9a66-4888b5f737e1.png">
 
 
 ## Installation

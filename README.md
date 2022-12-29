@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+### Built With
+[![React][reactjs.org]][reactjs-url]  
+[![Stripe][stripe.com]][stripe-url]  
+[![React-Bootstrap][getbootstrap.com]][react-bootstrap-url]  
+[![NodeJS][node.js]][nodejs-url]  
+[![Express][expressjs.com]][expressjs-url]  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Shopping Cart Built w/ React JS & Stripe
 
-In the project directory, you can run:
+<!-- Add app logo here -->
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
+- [Tests](#tests)
+- [Questions](#questions)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
+This is a Ecommerce Store application built with React components/pages and Bootstrap styling on the front end for responsive desktop and mobile functionality. While the backend is built with Express and Stripe API provided to process payments smoothly. This shopping cart application can be used within any Ecommerce business model. 
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshots
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- This repo requires you to install Node.js. Visit their website to read the installation process and documentation in order to properly install applications on your system.
+- Clone the Github SSH or HTTPS link by clicking the (GREEN) code button in our Repo.
+- Please perform a npm i inside your terminal within the root of your repo folder to ensure all packages are installed.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+none
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Tests
+All functionalities of this application were tested through front end web browsers and backend databases.
 
-## Learn More
+## Questions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feel free to contact any of the contributors of this project via github profiles linked below.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributors
+[Evince Edouard](https://github.com/EEdouard28)  
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[reactjs-url]: https://reactjs.org/
+[reactjs.org]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[nodejs-url]: https://nodejs.org/en/
+[node.js]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+[expressjs-url]: https://expressjs.com/
+[expressjs.com]: https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white
+[react-bootstrap-url]: https://react-bootstrap.github.io/
+[getbootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[stripe-url]: https://stripe.com/
+[stripe.com]: https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white

@@ -12,7 +12,7 @@ const stripe = require('stripe')(
 const app = express();
 let Port = process.env.PORT;
 if (Port === nul || Port === '') {
-  Port = 3000;
+  Port = 3001;
 }
 app.use(cors());
 app.use(express.static('public'));

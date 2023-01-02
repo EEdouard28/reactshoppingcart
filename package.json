@@ -17,6 +17,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "16.18.0"
+  },
   "bugs": {
     "url": "https://github.com/EEdouard28/reactshoppingcart/issues"
   },

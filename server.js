@@ -10,7 +10,10 @@ const stripe = require('stripe')(
 );
 
 const app = express();
-let PORT = process.env.PORT || 4000;
+let Port = process.env.PORT;
+if (Port === nul || Port === '') {
+  Port = 3000;
+}
 app.use(cors());
 app.use(express.static('public'));
 app.use(express.json());
@@ -51,4 +54,4 @@ app.post('/checkout', async (req, res) => {
   );
 });
 
-app.listen(PORT, () => console.log('Listening on port 4000!'));
+app.listen(Port, () => console.log('Server has started successfully!'));

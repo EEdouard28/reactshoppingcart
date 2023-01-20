@@ -15,7 +15,7 @@ if (Port === null || Port === '') {
   Port = 3000;
 }
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'client', 'build')));
+app.use(express.static(path.join(__dirname, './client/build/index.html')));
 app.use(express.json());
 
 app.post('/checkout', async (req, res) => {
